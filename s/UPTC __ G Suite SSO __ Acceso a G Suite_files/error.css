@@ -1,0 +1,63 @@
+.Error {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #FF0000;
+	padding: 10px 10px 10px 40px;
+	margin: 5px;
+	background-color: #FFFFE1;
+	background-image: url(../img/dialog-error.png);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	text-align:justify;
+}
+.Warning {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #FF7F50;
+	padding: 10px 10px 10px 40px;
+	margin: 5px;
+	background-color: #FFFFE1;
+	background-image: url(../img/dialog-warning.png);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+}
+.Notice {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #4682B4;
+	padding: 10px 10px 10px 40px;
+	margin: 5px 0;
+	background-color: #FFFFE1;
+	background-image: url(../img/dialog-information.png);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+}
+.Debug {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #000000;
+	padding: 10px 10px 10px 40px;
+	margin: 5px;
+	background-color: #FFFFE1;
+	background-image: url(../img/dialog-debug.png);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+}
+.Success {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #628F62;
+	padding: 10px 10px 10px 40px;
+	background-color: #9BCF9B;
+	background-image: url(../img/dialog-success.png);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* El explorador de Safari no sirve background-color: InfoBackground; */

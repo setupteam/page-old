@@ -1,0 +1,309 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	margin-bottom: 45px;
+}
+
+h1 {
+	font-size: 24px;
+	margin-top: 25px
+}
+
+h2 {
+	font-size: 18px
+}
+
+h3 {
+	font-size: 16px
+}
+
+form {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+p {
+	text-align: justify;
+	clear: both;
+}
+
+input {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 1px;
+}
+
+select {
+	background-color: #FFFFFF;
+	width: 165px;
+}
+li {
+	list-style-type: none !important;
+}
+.span-14 {
+	width: 50%;
+}
+
+.span-15 {
+	width: 55%;
+}
+
+.span-16 {
+	width: 60%;
+}
+
+.span-17 {
+	width: 65%;
+}
+
+.span-18 {
+	width: 70%;
+}
+
+.span-19 {
+	width: 75%;
+}
+
+.span-20 {
+	width: 80%;
+}
+
+.span-21 {
+	width: 85%;
+}
+
+.span-22 {
+	width: 90%;
+}
+
+.span-23 {
+	width: 95%;
+}
+
+.span-24 {
+	width: 100%;
+	margin-right: 0;
+}
+
+.prepend-1 {
+	padding-left: 5%
+}
+
+.append-1 {
+	padding-right: 5%
+}
+
+.container {
+	width: 80%;
+	min-width: 250px;
+}
+
+#header {
+	
+}
+
+#content {
+}
+
+#content div#wrapper {
+	min-height: 200px;
+	height: 100%;
+	margin: 0 auto 15px auto;
+	width: 94%;
+}
+
+#options {
+	margin: 0 auto 5px 0;
+	text-align: center;
+}
+
+#options ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#options li {
+	display: inline;
+	padding: 2px 5px; /*Separar el texto*/
+	margin: 4px; /* Separar los botones */
+}
+
+#options a {
+	text-align: center;
+	line-height: 18px;
+}
+#footer div {
+	float: left;
+	width:100%;
+}
+.footer-text {
+	width: 98%;
+	float: left;
+}
+
+.formulario {
+	padding: 15px;
+	margin: 15px auto;
+	width: auto;
+	height: 100%;
+	float: left
+}
+
+.item-titulo {
+	float: left;
+	text-align: right;
+	font-size: 12px;
+	width: 150px;
+	margin-right: 5px
+}
+
+.item-campo {
+	float: left;
+}
+
+.inserte {
+	float: left;
+	padding: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.boton {
+	text-align: center;
+	padding: 3px;
+	clear: both;
+}
+
+.link {
+	border-left: 1px solid #666;
+	float: left;
+	margin-bottom: 0;
+	margin-right: 15px;
+	margin-top: 0;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.first {
+	border-left: 0 !important;
+	padding-left: 0
+}
+
+#options-links {
+	margin-bottom: 15px;
+}
+
+.link img {
+	float: left;
+	margin-bottom: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0;
+}
+
+/*-- INI Credits --*/
+#credits {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	background-color: #FFF
+}
+
+#credits img {
+	float: right;
+	padding-right: 15px
+}
+
+/*-- END Credits --*/ /*-- END Footer --*/
+.claro .dijitSelect {
+	margin: 0.1em 0;
+	width: 15em;
+	height: 1.8em;
+}
+
+.claro .dijitSelect .dijitArrowButton {
+	width: 25px;
+}
+
+.claro .dijitDownArrowButton { /*width: 0.2em;*/
+	
+}
+
+input[type="text"],input[type="password"],input.text,input.title,textarea,select
+	{
+	margin: 0.1em 0;
+	height: 1.3em;
+}
+
+div.img {
+	margin: 10px;
+	border: none;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}
+
+div.img img {
+	display: inline;
+	margin: 3px;
+	border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+	border: 1px solid #5C8ABB;
+}
+
+div.desc {
+	text-align: center;
+	font-weight: normal;
+	width: 120px;
+	margin: 2px;
+}
+
+.helptext {
+    color: #C0C0C0;
+    display: block;
+  	width: 340px;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+.dijitTextBox{
+	vertical-align: top;
+}
+td
+{
+	vertical-align: top;
+	padding-top: 8px;
+}
+#logoEforcers{
+	width:120px;
+	height:25px;
+	background: url("../img/creditos_d_eforcers.png") no-repeat;
+	background-position: 0 -25px;
+	display:block;
+	float:right;
+}
+#logoEforcers:hover{
+	background-position: 0 0px;
+}
+
+.btnAlert{
+	display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: rgba(0,0,0,0.25) 2px 2px 4px 0;
+    border: 1px solid transparent;
+}
+.btnAlert:hover{
+	border-color: #514721;
+	color: #514721;
+}
