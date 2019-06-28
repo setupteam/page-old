@@ -2,16 +2,19 @@
 }
 
 #logo{
+	margin-top: -100px;
 	width: 50%;
 	margin-left: 25%;
 }
 
 #info{
+	margin-top: -100px;
 	margin-left: 25%;
 }
 
 @media only screen and (min-width: 1024px) {
 	#logo{
+		margin-top: -90px;
 		width: 20%;
 		margin-left: 40%;
 	}
