@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>LOL</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/main_style.css">
-		<link rel="stylesheet" href="css/lol_style.css">
-	</head>
+<head>
+	<title>LOL</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/main_style.css">
+	<link rel="stylesheet" href="css/lol_style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<body>
-	</body>
+	<script type="text/javascript" src="js/lol_script.js"></script>
+</head>
+
+<body>
+
+	<label for="table-name">Nombre tabla</label>
+	<input type="text" id="table-name-text" placeholder="Nombre tabla" name="table-name-text">
+	<button onclick="createTable();">Crear tabla</button>
+	<div id="table-attribute">
+		<label for="attribute-name">Nombre atributo</label>
+		<input type="text" id="attribute-name-text" placeholder="Nombre atributo" name="attribute-name-text">
+		<label for="attribute-type">Tipo</label>
+		<input type="text" id="attribute-type-text" placeholder="Tipo atributo" name="attribute-type-text">
+		<label for="attribute-type-value">Valor</label>
+		<input type="text" id="attribute-type-value" placeholder="Valor atributo" name="attribute-type-value">
+		<label>
+			<input id="checknull" type="checkbox" name="remember"> Obligatorio
+		</label>
+		<button onclick="createAttr();">Crear atributo</button>
+	</div>
+	<p id="full-text"></p>
+	<p id="final-par"></p>
+
+</body>
 </html>
