@@ -32,10 +32,6 @@ document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 document.addEventListener("mousemove", mouseMoveHandler, false);
 
-function sal(){
-    alert("hi");
-}
-
 function keyDownHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = true;
@@ -71,7 +67,7 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
-                        alert("YOU WIN, CONGRATS!");
+                        alert("Ganaste, Felicitaciones!");
                         document.location.reload();
                     }
                 }
@@ -117,13 +113,13 @@ function drawBricks() {
 function drawScore() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#0095DD";
-    ctx.fillText("Score: "+score, 8, 20);
+    ctx.fillText("Puntuacion: "+score, 8, 20);
 }
 
 function drawLives() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#0095DD";
-    ctx.fillText("Lives: "+lives, canvas.width-65, 20);
+    ctx.fillText("Vidas: "+lives, canvas.width-65, 20);
 }
 
 function draw() {
