@@ -1,0 +1,37 @@
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.carousel {
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-block {
+    min-width: 500px;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.do-st {
+    background-color: rgb(0, 0, 0);
+}
+
+.row {
+    max-width: 98%;
+    margin: 1%;
+}
