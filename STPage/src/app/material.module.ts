@@ -9,6 +9,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatListModule } from '@angular/material/list';
 
 const myModules = [
     MatSidenavModule,
@@ -20,7 +21,8 @@ const myModules = [
     MatSnackBarModule,
     MatDialogModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatListModule
   ];
 
 @NgModule({

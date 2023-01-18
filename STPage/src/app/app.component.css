@@ -5,18 +5,21 @@ nav {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-body {
-    background-color: black;
+.body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: linear-gradient(to bottom, rgb(132, 96, 246), rgb(132, 96, 246));
 }
 
+h1,
 h2 {
+    text-align: center;
     color: white;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .carousel {
-    background-color: rgb(255, 255, 255);
+    /*background: linear-gradient(to bottom, rgb(132, 96, 246), rgb(132, 96, 246));*/
+    background-color: rgba(255, 255, 255, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,28 +32,36 @@ h2 {
 }
 
 .do-st {
-    background-color: rgb(0, 0, 0);
-    margin-bottom: 5px;
+    /*background-color: rgb(61, 42, 122);*/
+    background-color: rgba(255, 255, 255, 0);
+    padding-bottom: 5px;
 }
 
 .row {
     max-width: 98%;
-    margin: 1%;
+    margin-left: 1%;
 }
 
-footer {
-    margin-top: 10px;
-}
-
-.nav-link {
-    color: white;
-    background-color: rgb(33, 37, 41);
+.social {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-link:hover {
     color: black;
+    border-radius: 2px;
+    border-color: black;
 }
 
 button {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+a>img {
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    max-width: 50px;
+    max-height: 50px;
 }
