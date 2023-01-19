@@ -6,11 +6,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@app/material.module';
 import { LoginDialogComponent } from './components/login-dialog/login-dialog.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CursedEffectsComponent } from './components/cursed-effects/cursed-effects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginDialogComponent
+    LoginDialogComponent,
+    CursedEffectsComponent
   ],
   imports: [
     BrowserModule,

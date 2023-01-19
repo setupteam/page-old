@@ -2,6 +2,7 @@ import { Component, Inject } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatDialog, MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { LoginDialogComponent } from './components/login-dialog/login-dialog.component';
+import { MatFormField } from '@angular/material/form-field';
 
 @Component({
   selector: 'app-root',
